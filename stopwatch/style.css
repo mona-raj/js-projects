@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Electrolize&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --bg-color: rgb(244, 211, 211);
+    --shadow: rgb(174, 153, 153);
+}
+body {
+    background-color: var(--bg-color)
+}
+.stopwatch {
+    width: 90%;
+    max-width: 600px;
+    border-radius: 10px;
+    background-image: linear-gradient(to left, #650537, #500b67);
+    text-align: center;
+    padding: 40px 0;
+    color: white;
+    margin: 200px auto;
+    box-shadow: 0 10px 10px var(--shadow);
+    font-family: "Electrolize", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.stopwatch h1{
+    margin-top: 60px;
+    font-size: 64px;
+    font-weight: 300;
+}
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons img {
+    width: 50px;
+    margin: 0 20px;
+    cursor: pointer;
+}
+#start-btn {
+    width: 80px;
+}
